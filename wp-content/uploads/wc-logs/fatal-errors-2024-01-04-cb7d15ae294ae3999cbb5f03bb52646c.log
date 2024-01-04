@@ -1,0 +1,169 @@
+2024-01-04T18:39:38+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(13): require_once('E:\\OSPanel-5.4....')
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#5 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:39:40+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:39:53+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:40:09+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:41:38+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:42:08+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:42:23+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:43:25+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:43:40+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:43:40+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:43:57+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:44:11+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:44:30+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:44:42+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:44:42+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin.php(34): require_once('E:\\OSPanel-5.4....')
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\customize.php(13): require_once('E:\\OSPanel-5.4....')
+#5 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T18:44:49+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/widgets.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:13
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin.php(34): require_once('E:\\OSPanel-5.4....')
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\edit.php(10): require_once('E:\\OSPanel-5.4....')
+#5 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 13
+
+2024-01-04T19:05:53+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/includes/wc-functions-remove.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:18
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(96): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(13): require_once('E:\\OSPanel-5.4....')
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#5 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 18
+
+2024-01-04T19:07:57+00:00 CRITICAL Uncaught Error: Call to undefined function web_design_sun_posted_on() in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\template-parts\content.php:25
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template.php(792): require()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template.php(725): load_template()
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\general-template.php(206): locate_template()
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php(10): get_template_part()
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template-loader.php(106): include('E:\\OSPanel-5.4....')
+#5 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(19): require_once('E:\\OSPanel-5.4....')
+#6 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#7 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\template-parts\content.php on line 25
+
