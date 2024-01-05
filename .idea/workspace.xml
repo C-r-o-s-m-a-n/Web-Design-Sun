@@ -23,35 +23,37 @@
           <entry key="css" value="9" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="2" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
           <entry key="less" value="7" />
-          <entry key="php" value="27" />
+          <entry key="php" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
           <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="Less" value="7" />
-          <entry key="PHP" value="27" />
+          <entry key="PHP" value="32" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="16" />
-          <entry key="html" value="3" />
+          <entry key="gitignore" value="17" />
+          <entry key="html" value="13" />
+          <entry key="js" value="9" />
           <entry key="less" value="25" />
-          <entry key="php" value="434" />
+          <entry key="php" value="2132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="13" />
+          <entry key="JavaScript" value="9" />
           <entry key="Less" value="25" />
-          <entry key="PHP" value="434" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PHP" value="2132" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -59,46 +61,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/index.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/verstka/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="1071">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/verstka/index.html">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="323" column="34" selection-start-line="323" selection-start-column="24" selection-end-line="323" selection-end-column="50" />
+            <state relative-caret-position="235">
+              <caret line="442" column="29" selection-start-line="442" selection-start-column="29" selection-end-line="442" selection-end-column="29" />
+              <folding>
+                <element signature="e#155#245#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/assets/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/theme-setting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions-remove.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -106,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289" />
+            <state relative-caret-position="-109" />
           </provider>
         </entry>
       </file>
@@ -141,6 +155,12 @@
       <find>cart_link</find>
       <find>fragme</find>
       <find>high</find>
+      <find>width</find>
+      <find>about-stor</find>
+      <find>big</find>
+      <find>featr</find>
+      <find>disc</find>
+      <find>discou</find>
     </findStrings>
     <dirStrings>
       <dir>E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\underscore</dir>
@@ -153,21 +173,21 @@
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/web-design-sun/style.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/style.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/enqueue-scripts-style.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/assets/js/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/add-theme-support.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/menus.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions-remove.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/widget-areas.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/theme-setting.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/widgets.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/verstka/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/verstka/index.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/theme-setting.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/web-design-sun/assets/js/script.js" />
       </list>
     </option>
   </component>
@@ -183,10 +203,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1959" />
-    <option name="y" value="-5" />
-    <option name="width" value="919" />
-    <option name="height" value="521" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,6 +237,47 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-design-sun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-design-sun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-design-sun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-design-sun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="underscore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-design-sun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="web-design-sun" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,12 +327,12 @@
       <option name="presentableId" value="Default" />
       <updated>1704200248126</updated>
       <workItem from="1704200250405" duration="2961000" />
-      <workItem from="1704380232467" duration="10240000" />
+      <workItem from="1704380232467" duration="22579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13201000" />
+    <option name="totallyTimeSpent" value="25540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="2576" height="1056" extended-state="6" />
@@ -328,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/enqueue-scripts-style.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -349,31 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/theme-setting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions-remove.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -393,13 +426,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/index.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/woocommerce.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,28 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="131" selection-start-line="131" selection-end-line="149" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/inc/custom-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -464,7 +468,14 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -477,15 +488,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/verstka/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="323" column="34" selection-start-line="323" selection-start-column="24" selection-end-line="323" selection-end-column="50" />
+        <state relative-caret-position="1071">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/woocommerce/wc-functions-remove.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="131" selection-start-line="131" selection-end-line="149" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/underscore/inc/custom-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="387" column="9" selection-start-line="387" selection-start-column="9" selection-end-line="387" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/includes/theme-setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="442" column="29" selection-start-line="442" selection-start-column="29" selection-end-line="442" selection-end-column="29" />
+          <folding>
+            <element signature="e#155#245#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/web-design-sun/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
