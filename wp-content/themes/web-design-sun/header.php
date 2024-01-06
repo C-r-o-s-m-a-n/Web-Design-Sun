@@ -8,11 +8,6 @@
 	<meta name="keywords" content=""/>
 	<meta name="description" content="<?php bloginfo('description')?>"/>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&family=Marcellus&display=swap"
-		  rel="stylesheet">
-
   	<?php wp_head()?>
 </head>
 <body class="wp-front-page" <?php body_class()?>>
@@ -26,8 +21,8 @@
 				  <?php  $menu_args = array(
 					'theme_location' => 'header_nav',
 					'container_class' => 'header-nav',
-					'container' => 'nav',
-					'items_wrap' => '%3$s'
+					'container' => 'div',
+					'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>'
 				  );
 				  wp_nav_menu( $menu_args );
 				  ?>
@@ -37,17 +32,7 @@
 				<div class="header-search">
 					<i data-svg="images/icons/search.svg"></i>
 				</div>
-				<div class="header-cart">
-					<div class="header-cart-icon">
-						<i data-svg="images/icons/cart.svg"></i>
-						<div class="header-cart-icon__counter">
-							<?php web_design_sun_woocommerce_cart_link()?>
-						</div>
-					</div>
-					<div class="header-cart__total-price">
-						$0.00
-					</div>
-				</div>
+              	<?php web_design_sun_woocommerce_cart_link()?>
 			</header>
 		</div>
 	</header><!-- .header-->

@@ -91,7 +91,7 @@ img, svg{
 	text-align: center;
 	font-size: 62px;
 	color: #242424;
-	span{
+	&>span{
 		display: block;
 		font-size: 45px;
 	}
@@ -246,28 +246,105 @@ img, svg{
 	&-nav{
 		padding: 0 91px 0 88px;
 		flex: 1 0;
-		a{
+		position: relative;
+		&>ul>li{
+			display: inline-block;
 			margin-right: 30px;
-			position: relative;
-			&::before{
-				content: '';
-				display: block;
-				height: 1px;
-				width: 100%;
-				position: absolute;
-				left: 0;
-				bottom: -3px;
-				background-color: #C3935B;
-				opacity: 0;
-				transition: all .3s;
-			}
+			padding: 4px 0 3px;
+			border-bottom: 1px solid transparent;
+			transition: all .3s;
 			&:hover{
-				&::before{
-					opacity: 1;
-				}
+				border-bottom: 1px solid #C3935B;
 			}
 			&:last-child{
 				margin-right: 0;
+			}
+			&.menu-item-has-children{
+				&::after{
+					content: '';
+					display: inline-block;
+					width: 8px;
+					height: 8px;
+					border-bottom: 2px solid #fff;
+					border-left: 2px solid #fff;
+					transition: all .3s;
+					transform: translateY(2px) rotate(135deg);
+					margin-left: 7px;
+				}
+				&>ul{
+					position: absolute;
+					top: 71px;
+					left: 50%;
+					transform: translateX(-50%);
+					background-color: #fff;
+					padding: 0 55px;
+					opacity: 0;
+					overflow: hidden;
+					max-height: 0;
+					transition: all 1s;
+					min-width: 650px;
+					display: flex;
+					flex-flow: row wrap;
+					&>li{
+						max-width: 160px;
+						padding-right: 30px;
+						flex: 0 0 160px;
+						margin-bottom: 15px;
+						&>a{
+							color: #000;
+							font-family: 'Marcellus', sans-serif;
+							text-transform: uppercase;
+							padding-bottom: 16px;
+						}
+						&>.sub-menu{
+							&>li{
+								margin-bottom: 16px;
+								&:last-child{
+									margin-bottom: 0;
+								}
+								a{
+									color: #808080;
+									&:hover{
+										color: @highlighted-color;
+									}
+								}
+							}
+						}
+					}
+				}
+				&:hover{
+					&>ul{
+						padding-top: 50px;
+						padding-bottom: 15px;
+						opacity: 1;
+						max-height: 1500px;
+						transition: all .3s;
+					}
+					&::after{
+						transform: translateY(-2px) rotate(-45deg);
+					}
+				}
+			}
+		}
+		&-inscription{
+			&>a{
+				position: relative;
+				&>span{
+					position: absolute;
+					bottom: 100%;
+					right: 0;
+					transform: translateX(50%);
+					font-size: 12px;
+					font-weight: 500;
+					color: #fff;
+					padding: 2px 3px;
+					span{
+						position: absolute;
+						top: 100%;
+						left: 50%;
+						transform: translate(-2px ,-50%);
+					}
+				}
 			}
 		}
 	}
@@ -604,6 +681,7 @@ body.wp-front-page section{
 					padding: 5px 10px;
 					color: #242424;
 					font-size: 24px;
+					text-align: center;
 					span{
 						display: block;
 						font-size: 13px;
