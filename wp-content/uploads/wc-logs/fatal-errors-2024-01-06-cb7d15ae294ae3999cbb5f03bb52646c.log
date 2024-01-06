@@ -1,0 +1,21 @@
+2024-01-06T11:13:44+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_category() in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\modules\featured-product.php:54
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template.php(792): require()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template.php(725): load_template()
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\general-template.php(206): locate_template()
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php(143): get_template_part()
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template-loader.php(106): include('E:\\OSPanel-5.4....')
+#5 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(19): require_once('E:\\OSPanel-5.4....')
+#6 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#7 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\modules\featured-product.php on line 54
+
+2024-01-06T12:08:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function create_column_highlighted_offers(), 0 passed in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php on line 345 and exactly 2 expected in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php:297
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php(345): create_column_highlighted_offers()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template-loader.php(106): include('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(19): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php on line 297
+
