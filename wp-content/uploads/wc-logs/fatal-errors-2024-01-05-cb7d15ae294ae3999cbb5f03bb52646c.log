@@ -1,2 +1,34 @@
 2024-01-05T19:56:36+00:00 CRITICAL syntax error, unexpected token ";" in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php on line 434
 
+2024-01-05T23:42:12+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php:2201
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php(2201): array_map()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php(3956): WP_Query->query()
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php(2056): WP_Query->__construct()
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): WC_Product_Data_Store_CPT->query()
+#5 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\class-wc-product-query.php(76): WC_Data_Store->__call()
+#6 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\wc-product-functions.php(48): WC_Product_Query->get_products()
+#7 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php(142): wc_get_products()
+#8 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template-loader.php(106): include('E:\\OSPanel-5.4....')
+#9 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(19): require_once('E:\\OSPanel-5.4....')
+#10 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#11 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php on line 2201
+
+2024-01-05T23:42:13+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php:2201
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php(2201): array_map()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php(3956): WP_Query->query()
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php(2056): WP_Query->__construct()
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(224): WC_Product_Data_Store_CPT->query()
+#5 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\class-wc-product-query.php(76): WC_Data_Store->__call()
+#6 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\plugins\woocommerce\includes\wc-product-functions.php(48): WC_Product_Query->get_products()
+#7 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\front-page.php(142): wc_get_products()
+#8 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\template-loader.php(106): include('E:\\OSPanel-5.4....')
+#9 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(19): require_once('E:\\OSPanel-5.4....')
+#10 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#11 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-includes\class-wp-query.php on line 2201
+

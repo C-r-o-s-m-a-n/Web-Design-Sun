@@ -1,8 +1,5 @@
 <?php get_header();
 $acf_fields = get_fields();
-echo '<pre>';
-print_r($acf_fields);
-echo '</pre>';
 ?>
 	<section class="section section-front-page-welcome" style="background-image: url('<?php echo $acf_fields['front-page-welcome_background']?>')">
 		<div class="container">
@@ -33,7 +30,7 @@ echo '</pre>';
                   if ($first_btn['front-page-welcome-btn_link']):?>
 					  <div class="global-btn global-btn--white">
 						  <a href="<?php echo $first_btn['front-page-welcome-btn_link']?>">
-							<?php echo $first_btn['front-page-welcome-btn_link']?>
+							<?php echo $first_btn['front-page-welcome-btn_label']?>
 						  </a>
 					  </div>
                   <?php endif ?>
@@ -42,7 +39,7 @@ echo '</pre>';
                   if ($second_btn['front-page-welcome-btn_link']):?>
 					  <div class="global-btn global-btn--outline">
 						  <a href="<?php echo $second_btn['front-page-welcome-btn_link']?>">
-                            <?php echo $second_btn['front-page-welcome-btn_link']?>
+                            <?php echo $second_btn['front-page-welcome-btn_label']?>
 						  </a>
 					  </div>
                   <?php endif ?>
@@ -140,166 +137,11 @@ echo '</pre>';
 				  </p>
               <?php endif ?>
 			</div>
-			<div class="featured-product-row">
-				<div class="featured-product-poster">
-					<img src="images/FP-poster-1.jpg" alt="" class="featured-product-poster__img">
-					<div class="featured-product-poster-content">
-						<p class="featured-product-poster-content__title">
-							TRISTIQUE JUSTO
-						</p>
-						<div class="featured-product-poster-content__description">
-							Started now shortly had for assured hearing expense led juvenile.
-						</div>
-					</div>
 
-				</div>
-				<div class="featured-product-slider">
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="featured-product-row">
-				<div class="featured-product-poster featured-product-poster--white">
-					<img src="images/FP-poster-2.jpg" alt="">
-					<div class="featured-product-poster-content">
-						<p class="featured-product-poster-content__title">
-							TRISTIQUE JUSTO
-						</p>
-						<div class="featured-product-poster-content__description">
-							Started now shortly had for assured hearing expense led juvenile.
-						</div>
-					</div>
-				</div>
-				<div class="featured-product-slider">
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
-							<img src="images/products/1.png" alt="">
-						</div>
-						<div class="card-product-content">
-							<p class="card-product-content__title">
-								Curabitur sitamet
-							</p>
-							<p class="card-product-content__category">
-								Jewelry
-							</p>
-							<div class="card-product-content__price">
-								$169.00
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php $featured_products = $acf_fields['front-page-featured-product'];
+			if(array_filter($featured_products)){
+				get_template_part('modules/featured-product', null, $featured_products);
+			}?>
 		</div>
 	</section>
 
@@ -407,6 +249,27 @@ echo '</pre>';
 		</div>
 	</section>
 
+	<section class="section-highlighted-offers">
+		<div class="container">
+			<?php
+            $special_offer = $acf_fields['front-page-highlighted-offers-special'];
+
+            $title_featured_product = $acf_fields['front-page-highlighted-offers_featured-title'];
+            $category_featured_product = $acf_fields['front-page-highlighted-offers_featured'];
+
+            $title_new_product = $acf_fields['front-page-highlighted-offers_new-title'];
+            $category_new_product = $acf_fields['front-page-highlighted-offers_new'];
+
+			get_template_part('modules/highlighted-offers', null, array(
+				'special_offer' => $special_offer,
+				'title_featured_product' => $title_featured_product,
+				'category_featured_product' => $category_featured_product,
+				'title_new_product' => $title_new_product,
+				'category_new_product' => $category_new_product,
+			));?>
+		</div>
+	</section>
+
 	<section class="section-front-page-blog">
 		<div class="container">
 			<div class="featured-product-title">
@@ -478,7 +341,7 @@ echo '</pre>';
 								  <?php the_excerpt()?>
 							  </div>
 							  <a href="<?php the_permalink($post->ID)?>" class="front-page-blog-slider-item-content__read-more">
-								  Continue reading
+								 <?php echo $acf_fields['front-page-blog_read-more']?>
 							  </a>
 						  </div>
 					  </div>

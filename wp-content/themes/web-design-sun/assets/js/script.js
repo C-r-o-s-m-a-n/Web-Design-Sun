@@ -31,6 +31,7 @@ jQuery(document).ready(function($){
 	/*Sliders*/
 	$('.featured-product-row .featured-product-slider').slick({
 		slidesToShow: 3,
+		infinite: false
 		/*responsive: [
 			{
 				breakpoint: 768,
