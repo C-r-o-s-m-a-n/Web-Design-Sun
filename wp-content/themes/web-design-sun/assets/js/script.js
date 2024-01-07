@@ -26,6 +26,19 @@ jQuery(document).ready(function($){
 	}
 
 	loadSVG()
+	
+	/*open search form*/
+	$('.header-search').on('click', function () {
+		$('.header-to-skip-for-search__to-hide').toggleClass('header-to-skip-for-search__to-hide--skip')
+		$('.header-search-form').toggleClass('header-search-form--show')
+		$('.header').css({'overflow':'hidden'})
+	})
+
+	$('.header-search-form span').on('click', function () {
+		$('.header-to-skip-for-search__to-hide').removeClass('header-to-skip-for-search__to-hide--skip')
+		$('.header-search-form').removeClass('header-search-form--show')
+		$('.header').css({'overflow':'visible'})
+	})
 
 
 	/*Sliders*/

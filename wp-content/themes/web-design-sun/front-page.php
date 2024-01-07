@@ -308,7 +308,7 @@ $acf_fields = get_fields();
 				  <?php foreach ($blog_posts as $post) :
 					setup_postdata($post)?>
 					  <div class="front-page-blog-slider-item">
-						  <div class="front-page-blog-slider-item-img">
+						  <a href="<?php echo get_permalink()?>" class="front-page-blog-slider-item-img">
 						  	<?php the_post_thumbnail('full');
 
 							$post_date = get_the_date();
@@ -324,7 +324,12 @@ $acf_fields = get_fields();
 								  $category_post = array_slice(get_the_category($post->ID), -1)[0];
 								  echo $category_post->name?>
 							  </div>
-						  </div>
+							  <span class="front-page-blog-slider-item-img__dots">
+								  <span></span>
+								  <span></span>
+								  <span></span>
+							  </span>
+						  </a>
 						  <div class="front-page-blog-slider-item-content">
 							  <?php the_title('<p class="front-page-blog-slider-item-content__title">','</p>')?>
 

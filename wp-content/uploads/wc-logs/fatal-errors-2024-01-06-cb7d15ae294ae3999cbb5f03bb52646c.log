@@ -176,3 +176,41 @@ Stack trace:
 #11 {main}
   thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\includes\menus.php on line 19
 
+2024-01-06T21:22:58+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/inc/custom-header.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:155
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(100): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(13): require_once('E:\\OSPanel-5.4....')
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#5 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 155
+
+2024-01-06T21:22:59+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/inc/custom-header.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:155
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(100): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-blog-header.php(13): require_once('E:\\OSPanel-5.4....')
+#4 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\index.php(17): require('E:\\OSPanel-5.4....')
+#5 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 155
+
+2024-01-06T21:23:55+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/inc/custom-header.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:155
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(100): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 155
+
+2024-01-06T21:25:57+00:00 CRITICAL Uncaught Error: Failed opening required 'E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun/wp-content/themes/web-design-sun/inc/custom-header.php' (include_path='.') in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php:155
+Stack trace:
+#0 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-settings.php(611): include()
+#1 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-config.php(100): require_once('E:\\OSPanel-5.4....')
+#2 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-load.php(50): require_once('E:\\OSPanel-5.4....')
+#3 E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-admin\admin-ajax.php(22): require_once('E:\\OSPanel-5.4....')
+#4 {main}
+  thrown in E:\OSPanel-5.4.3\OSPanel\domains\web-design-sun\wp-content\themes\web-design-sun\functions.php on line 155
+

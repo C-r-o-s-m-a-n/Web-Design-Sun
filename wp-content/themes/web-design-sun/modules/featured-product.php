@@ -2,8 +2,10 @@
 	foreach ($featured_products as $item):?>
 		<div class="featured-product-row">
 			<?php $poster = $item['front-page-featured-product-poster'];
-			if (array_filter($poster)):?>
-			<div class="featured-product-poster">
+			if (array_filter($poster)):
+			  $color = $poster['front-page-featured-product-poster_color-text'];
+			  ?>
+			<div class="featured-product-poster" style="color: <?php echo $color?>">
 			  <?php $img = $poster['front-page-featured-product-poster_img'];
 			  if ($img):?>
 				  <img src="<?php echo $img['url']?>" class="featured-product-poster__img" alt="<?php echo $img['alt']?>" width="<?php echo $img['width']?>" height="<?php echo $img['height']?>">
@@ -21,6 +23,13 @@
 					  <div class="featured-product-poster-content__description">
                         <?php echo $description?>
 					  </div>
+                  <?php endif?>
+
+                  <?php $btn = $poster['front-page-featured-product-poster-btn'];
+                  if ($btn['btn_link']):?>
+					  <a href="<?php echo $btn['btn_link'] ?>" class="featured-product-poster-content__btn" style="color: <?php echo $color?>;">
+                        <?php echo $btn['btn_label']?>
+					  </a>
                   <?php endif?>
 				</div>
 			</div>
@@ -42,15 +51,27 @@
 				<?php foreach ($products as $product):
                   	$image_id = $product->get_image_id()?>
 					<div class="featured-product-slider-item card-product">
-						<div class="featured-product-slider-item__img card-product__img">
+						<div class="featured-product-slider-item__img card-product-img">
 							<img src="<?echo wp_get_attachment_image_src($image_id, 'full')[0]?>">
+							<div class="card-product-img-tools">
+								<a href="<?php echo esc_url($product->add_to_cart_url())?>" data-product_sku="<?php echo esc_attr($product->get_sku())?>" data-product_id="<?php echo esc_attr($product->get_id())?>"
+								   class="card-product-img-tools__cart <?php echo $product->is_purchasable() && $product->is_in_stock() ? 'add_to_cart_button' : ''?>> product_type_<?php echo esc_attr($product->product_type)?>">
+									<i data-svg="<?php echo get_stylesheet_directory_uri()?>/assets/images/icons/cart.svg"></i>
+								</a>
+								<a href="" class="card-product-img-tools__zoom">
+									<i data-svg="<?php echo get_stylesheet_directory_uri()?>/assets/images/icons/search.svg"></i>
+								</a>
+							</div>
 						</div>
 						<div class="card-product-content">
 							<p class="card-product-content__title">
 								<?php echo $product->get_name();?>
 							</p>
 							<p class="card-product-content__category">
-                              <?php print_r($product->get_category_ids());$last_category_id = end($product->get_category_ids());
+                              <?php
+                              $last_category_id = $product->get_category_ids();
+                              asort($last_category_id);
+							  $last_category_id = end($last_category_id);
                               $last_category = get_term($last_category_id, 'product_cat');
                               echo $last_category->name?>
 							</p>

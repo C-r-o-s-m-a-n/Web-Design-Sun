@@ -4,31 +4,62 @@ if(!defined('ABSPATH')){
 }
 
 function web_design_sun_widgets_init() {
-  //footer info
+
+  //footer info block
+  /*register_sidebar(
+    array(
+      'name'          => esc_html__( 'Footer info', 'web-design-sun' ),
+      'id'            => 'footer-info',
+      'before_widget' => '',
+      'after_widget'  => '',
+      'before_title'  => '',
+      'after_title'   => '',
+      'before_sidebar' => '',
+		  'after_sidebar'  => ''
+    )
+  );*/
+
+  // recent posts
   register_sidebar(
     array(
-      'name'          => esc_html__( 'footer-info', 'web-design-sun' ),
-      'id'            => 'footer-info',
-      'description'   => esc_html__( 'Add widgets here.', 'web-design-sun' ),
-      /*'before_widget' => '<section id="%1$s" class="widget %2$s">',
-      'after_widget'  => '</section>',
-      'before_title'  => '<h2 class="widget-title">',
-      'after_title'   => '</h2>',*/
+      'name'          => esc_html__( 'Recent posts', 'web-design-sun' ),
+      'id'            => 'recent-posts',
+      'before_widget' => '',
+      'after_widget'  => '',
+      'before_title'  => '<h3 class="footer-recent-post__title footer__title-block">',
+      'after_title'   => '</h3>',
+      'before_sidebar' => '<div class="footer-recent-post">',
+		  'after_sidebar'  => '</div>'
     )
   );
 
-  //footer our stores
+  //out store
   register_sidebar(
     array(
-      'name'          => esc_html__( 'footer-our-stores', 'web-design-sun' ),
-      'id'            => 'footer-our-stores',
-      'description'   => esc_html__( 'Add list here.', 'web-design-sun' ),
-      /*'before_widget' => '<section id="%1$s" class="widget %2$s">',
-      'after_widget'  => '</section>',
-      ,*/
-      'before_title'  => '<h2 class="widget-title">',
-      'after_title'   => '</h2>'
+      'name'          => esc_html__( 'Our stores', 'web-design-sun' ),
+      'id'            => 'our-stores',
+      'before_widget' => '',
+      'after_widget'  => '',
+      'before_title'  => '<h3 class="footer-nav__title footer__title-block">',
+      'after_title'   => '</h3>',
+      'before_sidebar' => '<div class="footer-nav">',
+      'after_sidebar'  => '</div>'
     )
   );
+
+  //footer useful links
+  register_sidebar(
+    array(
+      'name'          => esc_html__( 'Useful links', 'web-design-sun' ),
+      'id'            => 'useful-links',
+      'before_widget' => '',
+      'after_widget'  => '',
+      'before_title'  => '<h3 class="footer-nav__title footer__title-block">',
+      'after_title'   => '</h3>',
+      'before_sidebar' => '<div class="footer-nav">',
+      'after_sidebar'  => '</div>'
+    )
+  );
+
 }
 add_action( 'widgets_init', 'web_design_sun_widgets_init' );

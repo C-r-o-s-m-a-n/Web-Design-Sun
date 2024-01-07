@@ -6,7 +6,7 @@
 		<div class="footer__wrap">
 			<div class="footer-info">
 				<a href="" class="footer-info__logo">
-					<img src="images/logo-black.svg" alt="">
+					<img src="<?php echo get_stylesheet_directory_uri()?>/assets/images/logo-black.svg" alt="">
 				</a>
 				<div class="footer-info__text">
 					<p>
@@ -17,76 +17,40 @@
 				<ul class="footer-info-list">
 					<li>
 						<a href="">
-							<i data-svg="images/icons/search.svg"></i>
+							<i data-svg="<?php echo get_stylesheet_directory_uri()?>/assets/images/icons/footer-info/gps.svg"></i>
 							<span>451 Wall Street, UK, London</span>
 						</a>
 					</li>
 					<li>
-						<a href="">
-							<i data-svg="images/icons/search.svg"></i>
-							<span>451 Wall Street, UK, London</span>
+						<a href="tel:(064) 332-1233">
+							<i data-svg="<?php echo get_stylesheet_directory_uri()?>/assets/images/icons/footer-info/phone.svg"></i>
+							<span>Phone: (064) 332-1233</span>
 						</a>
 					</li>
 					<li>
 						<a href="">
-							<i data-svg="images/icons/search.svg"></i>
-							<span>451 Wall Street, UK, London</span>
+							<i data-svg="<?php echo get_stylesheet_directory_uri()?>/assets/images/icons/footer-info/envelop.svg"></i>
+							<span>Fax: (099) 453-1357</span>
 						</a>
 					</li>
 				</ul>
 			</div>
-			<div class="footer-recent-post">
-				<h3 class="footer-recent-post__title footer__title-block">
-					RECENT POSTS
-				</h3>
-				<div class="footer-recent-post-item">
-					<div class="footer-recent-post-item__img">
-						<img src="images/blog-img-1.jpg" alt="">
-					</div>
-					<div class="footer-recent-post-item-content">
-						<p class="footer-recent-post-item-content__title">
-							A companion for extra sleeping
-						</p>
-						<div class="footer-recent-post-item-content__date">
-							July 23, 2016
-						</div>
-					</div>
-				</div>
-				<div class="footer-recent-post-item">
-					<div class="footer-recent-post-item__img">
-						<img src="images/blog-img-1.jpg" alt="">
-					</div>
-					<div class="footer-recent-post-item-content">
-						<p class="footer-recent-post-item-content__title">
-							A companion for extra sleeping
-						</p>
-						<div class="footer-recent-post-item-content__date">
-							July 23, 2016
-						</div>
-					</div>
-				</div>
-			</div>
-			<?php if(is_active_sidebar('footer-our-stores')){
-				dynamic_sidebar('footer-our-stores');
-			}?>
-			<!--<div class="footer-nav">
-				<p class="footer-nav__title footer__title-block">OUR STORES</p>
-				<ul class="footer-nav-list">
-					<li>New York</li>
-					<li>New York</li>
-					<li>New York</li>
-					<li>New York</li>
-				</ul>
-			</div>-->
-			<div class="footer-nav">
-				<p class="footer-nav__title footer__title-block">OUR STORES</p>
-				<ul class="footer-nav-list">
-					<li>New York</li>
-					<li>New York</li>
-					<li>New York</li>
-					<li>New York</li>
-				</ul>
-			</div>
+			  <?php
+/*              if (is_active_sidebar('footer-info')) {
+                dynamic_sidebar('footer-info');
+              };*/
+
+              if (is_active_sidebar('recent-posts')) {
+                dynamic_sidebar('recent-posts');
+              };
+
+			  if (is_active_sidebar('our-stores')) {
+				dynamic_sidebar('our-stores');
+			  };
+
+			  if (is_active_sidebar('useful-links')) {
+				dynamic_sidebar('useful-links');
+			  } ?>
 		</div>
 	</div>
 </footer><!-- .footer -->
