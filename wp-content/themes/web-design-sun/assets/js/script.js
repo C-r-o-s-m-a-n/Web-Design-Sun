@@ -44,20 +44,26 @@ jQuery(document).ready(function($){
 	/*Sliders*/
 	$('.featured-product-row .featured-product-slider').slick({
 		slidesToShow: 3,
-		infinite: false
-		/*responsive: [
+		infinite: false,
+		responsive: [
 			{
-				breakpoint: 768,
+				breakpoint: 991,
 				settings: {
-					slidesToShow: 1,
-					dots: true,
-					variableWidth: true
+					slidesToShow: 2
 				}
 			}
-		]*/
+		]
 	})
 
 	$('.front-page-blog-slider').slick({
-		slidesToShow: 3
+		slidesToShow: 3,
+		responsive: [
+			{
+				breakpoint: 991,
+				settings: {
+					slidesToShow: 2
+				}
+			}
+		]
 	})
 });

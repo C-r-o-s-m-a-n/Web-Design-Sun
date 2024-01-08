@@ -10,7 +10,7 @@
 
   	<?php wp_head()?>
 </head>
-<body class="wp-front-page" <?php body_class()?>>
+<body <?php body_class('wp-front-page')?>>
 <div class="wrapper">
 	<header class="header">
 		<div class="container">
