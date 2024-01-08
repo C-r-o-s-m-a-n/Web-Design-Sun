@@ -463,6 +463,7 @@ input{
 			padding: 0 40px;
 			position: relative;
 			span{
+				cursor: pointer;
 				position: absolute;
 				top: 50%;
 				transform: translateY(-50%);
@@ -672,6 +673,7 @@ body.wp-front-page section{
 			object-position: center center;
 			transition: all .3s;
 			height: auto;
+			transform: scale(1);
 		}
 		&-content{
 			position: absolute;
@@ -703,7 +705,7 @@ body.wp-front-page section{
 		}
 		&:hover{
 			.featured-product-poster__img{
-				scale: 1.2;
+				transform: scale(1.2);
 			}
 			.featured-product-poster-content__btn{
 				margin-bottom: 20px;

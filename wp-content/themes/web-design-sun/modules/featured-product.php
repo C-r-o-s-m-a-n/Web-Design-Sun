@@ -55,7 +55,7 @@
 							<img src="<?echo wp_get_attachment_image_src($image_id, 'full')[0]?>">
 							<div class="card-product-img-tools">
 								<a href="<?php echo esc_url($product->add_to_cart_url())?>" data-product_sku="<?php echo esc_attr($product->get_sku())?>" data-product_id="<?php echo esc_attr($product->get_id())?>"
-								   class="card-product-img-tools__cart <?php echo $product->is_purchasable() && $product->is_in_stock() ? 'add_to_cart_button' : ''?>> product_type_<?php echo esc_attr($product->product_type)?>">
+								   class="card-product-img-tools__cart <?php echo $product->is_purchasable() && $product->is_in_stock() ? 'add_to_cart_button' : ''?>> product_type_<?php echo esc_attr($product->get_type())?>">
 									<i data-svg="<?php echo get_stylesheet_directory_uri()?>/assets/images/icons/cart.svg"></i>
 								</a>
 								<a href="" class="card-product-img-tools__zoom">

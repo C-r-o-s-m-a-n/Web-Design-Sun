@@ -446,6 +446,7 @@ input {
   position: relative;
 }
 .header-search-form label span {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -633,6 +634,7 @@ body.wp-front-page section:last-child {
   object-position: center center;
   transition: all .3s;
   height: auto;
+  transform: scale(1);
 }
 .featured-product-poster-content {
   position: absolute;
@@ -663,7 +665,7 @@ body.wp-front-page section:last-child {
   color: #fff;
 }
 .featured-product-poster:hover .featured-product-poster__img {
-  scale: 1.2;
+  transform: scale(1.2);
 }
 .featured-product-poster:hover .featured-product-poster-content__btn {
   margin-bottom: 20px;

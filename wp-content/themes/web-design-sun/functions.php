@@ -33,10 +33,10 @@ require get_template_directory() . '/includes/theme-setting.php';
 require get_template_directory() . '/includes/menus.php';
 
 //widgets
-require get_template_directory() . '/includes/widgets.php';
+require get_template_directory() . '/includes/widgets/widgets-areas.php';
 
 //widget latest-post
-require get_template_directory() . '/includes/widget-latest-post.php';
+require get_template_directory() . '/includes/widgets/widget-latest-post.php';
 
 //include files woocommerce
 if ( class_exists( 'WooCommerce' ) ) {

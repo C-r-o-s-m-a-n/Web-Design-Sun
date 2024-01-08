@@ -6,7 +6,7 @@ if(!defined('ABSPATH')){
 function web_design_sun_widgets_init() {
 
   //footer info block
-  /*register_sidebar(
+  register_sidebar(
     array(
       'name'          => esc_html__( 'Footer info', 'web-design-sun' ),
       'id'            => 'footer-info',
@@ -17,7 +17,7 @@ function web_design_sun_widgets_init() {
       'before_sidebar' => '',
 		  'after_sidebar'  => ''
     )
-  );*/
+  );
 
   // recent posts
   register_sidebar(
